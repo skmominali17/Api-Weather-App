@@ -1,0 +1,36 @@
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+
+
+#city-input, #weather-output {
+    max-width: 400px;
+    margin: 0 auto;
+}
+  
+.banner {
+    color: var(--text-color);
+}
+
+
+
+body{
+    background-color: var(--bg-color);
+}
+
+.wrapper{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    margin-top: 8rem;
+    border-radius: 2rem;
+    width: 50vw;
+    margin-left: 25vw;
+    background: var(--second-bg-color);
+}
+
+.button{
+    background-color: var(--text-color);
+}
